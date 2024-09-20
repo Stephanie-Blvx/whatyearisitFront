@@ -1,4 +1,4 @@
-fetch('whatyearisit-115tsyt35-stephanie-blvxs-projects.vercel.app/year')
+fetch('https://vercel.com/stephanie-blvxs-projects/whatyearisit')
 	.then(response => response.json())
 	.then(data => {
         console.log(data)
